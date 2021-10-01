@@ -166,7 +166,7 @@ const AdminApp = () => {
 			editable: true,
 		},
 		{
-			title: 'operation',
+			title: 'Action',
 			dataIndex: 'operation',
 			className: 'operation',
 			width: '50%',
@@ -271,6 +271,7 @@ const AdminApp = () => {
 					Delete Selected
 				</Button>
 			)}
+			
 		</>
 	)
 }
